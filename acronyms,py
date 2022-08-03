@@ -1,0 +1,7 @@
+# create acronyms for given phrase
+str = input("Enter a Phrase: ")
+val = str.split()
+res = " "
+for i in val:
+    res = res + i[0]
+print(res)
