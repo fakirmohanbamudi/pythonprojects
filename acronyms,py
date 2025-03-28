@@ -1,4 +1,6 @@
 # create acronyms for given phrase
+# e.g. input: This is a Car
+# output: TiaC
 str = input("Enter a Phrase: ")
 val = str.split()
 res = " "
